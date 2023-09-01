@@ -1,0 +1,132 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.site-header {
+    background-image: url('/img/banner.jpg'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 200px 0; 
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    flex: 1;
+}
+
+.navegacion {
+    flex: 1;
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+
+.no-margin{
+    flex: 1;
+    text-align: left;
+}
+
+.texto-header{
+    flex: 1;
+    text-align: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.blog {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.entrada-blog {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contenido-blog {
+    flex: 1;
+    padding: 10px;
+}
+
+.cursos {
+    flex: 1;
+}
+
+.cursos-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.curso {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-secundario {
+    background-color: blue;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.barra p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navegacion a:first-child {
+    margin-left: 0;
+}
+.site-footer {
+    background-color: black; /* Color de fondo del footer */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
